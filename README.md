@@ -1,2 +1,1 @@
-# design_patterns_examples
-Examples of design patterns
+1. Composite pattern example
