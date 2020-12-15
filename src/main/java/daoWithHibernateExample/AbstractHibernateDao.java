@@ -1,10 +1,9 @@
-package DaoWithHibernateExample;
+package daoWithHibernateExample;
 
 import org.hibernate.Session;
 import org.hibernate.resource.transaction.spi.TransactionStatus;
 
 import java.io.Serializable;
-import java.util.Collections;
 import java.util.List;
 import java.util.Optional;
 

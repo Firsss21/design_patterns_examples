@@ -1,4 +1,4 @@
-package DaoWithHibernateExample;
+package daoWithHibernateExample;
 
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;

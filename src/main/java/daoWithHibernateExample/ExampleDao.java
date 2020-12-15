@@ -1,6 +1,6 @@
-package DaoWithHibernateExample;
+package daoWithHibernateExample;
 
-import DaoWithHibernateExample.JPA.ExampleEntity;
+import daoWithHibernateExample.JPA.ExampleEntity;
 import org.hibernate.Session;
 
 import javax.persistence.criteria.CriteriaBuilder;

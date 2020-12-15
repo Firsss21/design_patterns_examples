@@ -1,4 +1,4 @@
-package DaoWithHibernateExample.JPA;
+package daoWithHibernateExample.JPA;
 
 import javax.persistence.*;
 
