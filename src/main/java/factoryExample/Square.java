@@ -1,4 +1,4 @@
-package FactoryExample;
+package factoryExample;
 
 public class Square implements Shape {
     @Override

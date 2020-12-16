@@ -1,4 +1,4 @@
-package FactoryExample;
+package factoryExample;
 
 public class Main {
     public static void main(String[] args) {

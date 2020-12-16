@@ -1,4 +1,4 @@
-package FactoryExample;
+package factoryExample;
 
 public interface Shape {
    void draw();

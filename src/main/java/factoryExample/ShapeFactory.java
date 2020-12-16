@@ -1,4 +1,4 @@
-package FactoryExample;
+package factoryExample;
 
 public class ShapeFactory {
     public Shape getShape(String shapeType){

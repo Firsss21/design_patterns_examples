@@ -1,4 +1,4 @@
-package FlyweightExample;
+package flyweightExample;
 
 import javax.swing.*;
 import java.awt.*;
