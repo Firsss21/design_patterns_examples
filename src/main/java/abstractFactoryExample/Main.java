@@ -1,5 +1,6 @@
 package abstractFactoryExample;
 
+import abstractFactoryExample.factories.AbstractFactory;
 import abstractFactoryExample.factories.MacOSFactory;
 import abstractFactoryExample.factories.WindowsFactory;
 
@@ -9,11 +10,28 @@ public class Main {
     // который решает проблему создания целых семейств связанных продуктов,
     // без указания конкретных классов продуктов.
 
+    private static App configureApplication() {
+        App app;
+        AbstractFactory factory;
+        String osName = System.getProperty("os.name").toLowerCase();
+        if (osName.contains("mac")) {
+            factory = new MacOSFactory();
+            app = new App(factory);
+        } else {
+            factory = new WindowsFactory();
+            app = new App(factory);
+        }
+        return app;
+    }
+
     public static void main(String[] args) {
         App appWindows = new App(new WindowsFactory());
         appWindows.paint();
 
         App appMacOS = new App(new MacOSFactory());
         appMacOS.paint();
+
+        App appCurrent = configureApplication();
+        appCurrent.paint();
     }
 }
